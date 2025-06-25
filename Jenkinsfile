@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building...'
+                echo 'Building PipeLine-Test-Repo ...'
                 // 例如对于Maven项目:
                 // sh 'mvn clean package'
             }
